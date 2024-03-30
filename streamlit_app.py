@@ -4,21 +4,20 @@ from PIL import Image
 
 load_css()
 
-st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
+st.write("[![Star](https://avatars.githubusercontent.com/u/105603160?v=4)](https://gitHub.com/Shivansh7201/Shivansh_7201)")
 
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
-st.header('Chanin Nantasenamat, Ph.D.')
+st.header('Shivansh Gupta, U.G')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('ML Enthusiat, Content Creator with an interest in Data Science and AI..')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
+st_button('Youtube', 'https://youtube.com/@codekarr101', 'Data Professor YouTube channel', icon_size)
+st_button('Medium', 'https://medium.com/@shivanshmay2019/', 'Read my Blogs', icon_size)
+st_button('Twitter', 'https://twitter.com/shivansh7201', 'Follow me on Twitter', icon_size)
+st_button('Linkedin', 'https://www.linkedin.com/in/shivansh-gupta-2a339b227/', 'Follow me on LinkedIn', icon_size)
+st_button('Github', 'https://github.com/Shivansh7201/', 'CheckOut my new repository', icon_size)
+st_button('cup', 'https://www.buymeacoffee.com/shivansh7201', 'Buy me a Coffee', icon_size)
