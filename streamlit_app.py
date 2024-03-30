@@ -15,7 +15,7 @@ st.info('ML Enthusiat, Content Creator with an interest in Data Science and AI..
 
 icon_size = 20
 
-st_button('Youtube', 'https://youtube.com/@codekarr101', 'Data Professor YouTube channel', icon_size)
+st_button('Youtube', 'https://youtube.com/@codekarr101', 'Codekarr YouTube channel', icon_size)
 st_button('Medium', 'https://medium.com/@shivanshmay2019/', 'Read my Blogs', icon_size)
 st_button('Twitter', 'https://twitter.com/shivansh7201', 'Follow me on Twitter', icon_size)
 st_button('Linkedin', 'https://www.linkedin.com/in/shivansh-gupta-2a339b227/', 'Follow me on LinkedIn', icon_size)
